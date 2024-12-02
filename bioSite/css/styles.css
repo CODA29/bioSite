@@ -1,0 +1,65 @@
+/*css reset*/
+body, header, nav, main, footer, img, h1, h3, ul{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.logo a, nav a{
+  text-decoration: none;
+  color: black;
+  font-family: "Outfit", serif;
+}
+h3{
+  font-size: 2.5em;
+  font-weight: 600;
+}
+/*style rules for the container of the header and the nav */
+.head_container{
+  width: 100%;
+  display: flex;
+  justify-content:space-evenly;
+  padding: 1.7em 0;
+  align-items: center;
+}
+
+nav ul{
+  list-style: none;
+}
+nav li{
+  display: inline-block;
+  padding: 0 1.5em;
+}
+
+/* style rules for main content*/
+.card{
+  width: 800px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+
+
+}
+.card img{
+  max-width: 50%;
+  border-radius: 10%;
+}
+.summary p{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-size: 1.3em;
+  padding: 0 1em;
+}
+
+/* style rules for footer content */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5em 0;
+}
+/* style rule for social media account*/
+.fa-brands{
+  color: blue;
+  font-size: 2em;
+}
